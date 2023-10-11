@@ -1,0 +1,57 @@
+@media screen and (max-width: 1024px) {
+
+
+    .container .navbarr .navbarr-child li:nth-child(1),
+    .container .navbarr .navbarr-child li:nth-child(2), 
+    .container .navbarr .navbarr-child li:nth-child(3),
+    .container .navbarr .navbarr-child li:nth-child(4),
+    .container .navbarr .navbarr-child li:nth-child(5)  {
+        display: none;
+    }
+
+    .container .navbarr .navbarr-child-icon .navbarr-login {
+        display: none;
+    }
+
+    .container .navbarr .navbarr-child-icon #icon {
+       display: block;
+    }
+    .container .info .info-child .info-top #p1{
+        font-size: 52px;
+    }
+    .container .info .info-child .info-top #p2 {
+        font-size: 20px ;
+        width: 80vw;
+    }
+    .container .info .info-child .info-bottom #p3{
+        font-size: 13px;
+    }
+    #update {
+        display: inline-block;
+    }
+
+    .frame #frame-user{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .frame #frame-user .frame-user-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .frame #frame-user .frame-user-left p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+}
+

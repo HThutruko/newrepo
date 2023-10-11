@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+/* font-family: 'Kulim Park', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.navbarr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 32px;
+}
+
+.navbarr > h1 {
+    font-family: 'Kulim Park', sans-serif; 
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 35px;
+}
+
+.navbarr .navbarr-child {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #000;
+}
+.navbarr .navbarr-child-icon .navbarr-login {
+    background-color: #000;
+    color: white;
+    width: 128px;
+    height: 48px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .navbarr .navbarr-child-icon i{
+    display: none;
+    color: #000;
+}
+
+
+
+
+/* information */
+
+.container .info{
+    padding: 32px;
+}
+.container .info .info-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+    padding: 12px 165px 68px 165px;
+}
+
+.container .info .info-child .info-top p:nth-child(1) {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.container .info .info-child .info-top p:nth-child(2) {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    width: 40vw;
+}
+
+.container .info .info-child .info-bottom {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .info .info-child .info-bottom botton {
+    background-color: #FFCF23;
+    width: 165px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .info .info-child .info-bottom p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.container .info > img {
+    width: 100%;
+}
+
+
+
+/* update */
+
+.update {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    display: none;
+}
+
+.update .update-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.update .update-parent .update-parent-child {
+    display: flex;
+    gap: 20px;
+}
+
+.update .update-parent .update-parent-child h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.update .update-parent .update-parent-child .update-parent-child-icon {
+    width: 28px;
+    height: 28px;
+    background-color: #FFCF23;
+    border-radius: 50%;
+}
+
+.update .update-parent p {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: 0.1px;
+}
+
+    /* frame */
+
+.frame {
+    padding: 32px 32px 64px 32px;
+    background-color: #000;
+    color: white;
+}
+
+.frame img{
+    width: 100%;
+}
+
+
+.frame .frame-user {
+    display: flex;
+    gap: 28vw;
+    margin-top: 64px;
+}
+
+.frame .frame-user .frame-user-left p{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    word-spacing: 1px;
+    
+}
+.frame .frame-user .frame-user-left h3{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+    margin-bottom: 16px;
+}
+
+.frame .frame-user .frame-user-left{
+    width: 420px;
+}
+
+.frame .frame-user .frame-user-right {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.frame .frame-user .frame-user-right li {
+    margin-bottom: 10px;
+}
+
+
+/* comment */
+
+.container .comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.container .comment .comment-paprent{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 65px;
+
+}
+
+.container .comment .comment-paprent .comment-user{
+    padding: 30px;
+    border-radius: 8px;
+    background: #F3F3F3;
+
+}
+.container .comment .comment-paprent .comment-user .comment-user-word{
+    margin-bottom: 55px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    word-spacing: 1px;
+    text-align: justify;
+}
+.container .comment .comment-paprent .comment-user .comment-user-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.container .comment .comment-paprent .comment-user .comment-user-profile p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+.container .comment .comment-paprent .comment-user .comment-user-profile img {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    padding: 10px;
+}
+.container .comment .comment-user .comment-icon {
+    display: flex;
+    gap: 12px;
+}
+
+
+    /* cta */
+
+.cta {
+    background-image: url(./template\ 3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+    display: flex;justify-content: center;
+}
+
+.cta .cta-top {
+    position: absolute;
+    display: flex;
+    padding-top: 220px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+    width: 660px;
+}
+
+.cta .cta-top p:nth-child(1) {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 15px;
+    line-height: 24px;
+}
+
+.cta .cta-top p:nth-child(2) {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    line-height: 48px;
+}
+
+.cta .cta-top botton {
+    background-color:White;
+    border-radius: 24px;
+    height: 40px;
+    display: flex;
+    padding: 6px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 32px 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+    /* bander */
+
+/* .bander {
+    padding: 45px 32px;
+    display: flex;
+    background-color: #000000;
+    color: #FFF;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bander > h2{
+    font-family: Kulim Park;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bander .bander-content {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.bander .bander-content ul {
+    list-style: none;
+}
+
+.bander .bander-content ul h4 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-bottom: 16px;
+}
+
+.bander .bander-content ul li {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-bottom: 10px;
+}
+.bander .bander-content .bander-finally {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 15px;
+}
+
+.bander .bander-content .bander-finally botton {
+    display: flex;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px 28px;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #949191;
+}
+
+.bander .bander-content .bander-finally p {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #949191;
+    
+}
+
+ */

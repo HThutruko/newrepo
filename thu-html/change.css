@@ -1,0 +1,15 @@
+@media screen and (max-width: 1024px) {
+
+
+
+    .heading .heading-top {
+    padding: 63px 64px 0 64px;
+    height: 70vw;
+
+    }
+
+    .heading .heading-top .heading-top-left p {
+        display: none;
+    }
+
+ }
